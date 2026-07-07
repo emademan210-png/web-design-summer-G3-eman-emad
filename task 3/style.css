@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    padding-bottom: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card h3{
+    padding: 15px;
+}
+
+.card p{
+    padding: 0 15px;
+    color: gray;
+}
+
+button{
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
