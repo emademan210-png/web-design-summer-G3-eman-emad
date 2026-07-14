@@ -1,0 +1,686 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Navbar */
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 95px;
+}
+
+.menu {
+    float: right;
+    margin-top: 8px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    margin-left: 35px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+
+.hero {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero h1 {
+    width: 80%;
+    margin: auto;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #222;
+}
+
+.hero p {
+    width: 60%;
+    margin: 17px auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.hero button {
+    width: 180px;
+    height: 45px;
+    background-color: #246b73;
+    color: white;
+    border: none;
+    border-radius: 67px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero-images {
+    margin-top: 56px;
+}
+
+.hero-images img {
+    width: 47%;
+    height: 390px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.hero-images img:first-child {
+    float: left;
+}
+
+.hero-images img:last-child {
+    float: right;
+}
+
+/* Wellbeing Section */
+
+.wellbeing-section {
+    width: 90%;
+    margin: 100px auto 80px;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    padding: 70px 8%;
+    text-align: left;
+}
+
+.wellbeing-left {
+    float: left;
+    width: 65%;
+}
+
+.wellbeing-left h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    margin: 0 0 45px;
+    color: #222;
+}
+
+.small-card {
+    float: left;
+    width: 260px;
+    margin-right: 45px;
+}
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+    background-color: #246b73;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    bottom:-12px;
+}
+
+.small-card p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #333;
+    margin: 0;
+}
+
+.wellbeing-img {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.wellbeing-img img {
+    width: 100%;
+}
+
+/* organic section */
+
+.organic-section{
+    width: 90%;
+    margin:80px auto ;
+    overflow: hidden;
+}
+
+.organic-img{
+    float: left;
+    width: 48%;
+}
+
+.organic-img img{
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+.organic-text{
+    float: right;
+    width: 47%;
+    padding-top: 30px;
+}
+
+.organic-text h2{
+    font-size: 50px;
+    font-weight: 600px;
+    line-height: 62px;
+    margin: 0 0 20px;
+    color:#2B2B2B;
+}
+
+.organic-p{
+    font-size: 18px;
+    font-weight: 440;
+    line-height: 24px;
+    color: #2B2B2B;
+    margin-bottom: 40px;
+}
+
+.organic-item{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.flower-icon{
+    float: left;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #285E67; 
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.flower-icon i{
+    color:#285E67;
+    font-size: 20px;
+    position: relative;
+    bottom: -14px;
+}
+
+.organic-item p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B2B;
+    margin: 0;
+    padding-top: 6px;
+}
+
+
+
+
+/* nature Section */
+
+.nature-area {
+    clear: both;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.nature-image-box {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nature-img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+}
+
+.nature-content {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.nature-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: auto;
+    line-height: 80px;
+    position: relative;
+    bottom: -20px;
+}
+
+.nature-icon i {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: -15px;
+}
+
+.nature-content h2 {
+    width: 80%;
+    margin: 35px auto 20px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.nature-content p {
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nature-content button {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* nature cards */
+
+.nature-cards {
+    width: 88%;
+    margin: -120px auto 0;
+    background-color: #FCE2D7;
+    border-radius: 16px;
+    padding: 80px 40px;
+    text-align: center;
+    position: relative;
+}
+
+.nature-card {
+    float: left;
+    width: 25%;
+}
+
+.plant-icon {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 80px;
+}
+
+.plant-icon i {
+    color: #000000;
+    font-size: 40px;
+    position: relative;
+    bottom: -10px;
+}
+
+.nature-card h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer {
+    clear: both;
+    width: 100%;
+    background-color: #285E67;
+    padding: 70px 0;
+    margin-top: 120px;
+}
+
+.footer-content {
+    width: 90%;
+    margin: auto;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-logo img {
+    width: 100px;
+    display: block;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 22px;
+    margin-right: 25px;
+}
+
+.footer-menu {
+    float: right;
+    margin-top: 20px;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+ /*  Responsive */
+
+/* Tablet */
+@media (max-width: 991.98px) {
+
+    .hero h1 {
+        width: 100%;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .hero p {
+        width: 80%;
+    }
+
+    .wellbeing-left {
+        width: 60%;
+    }
+
+    .wellbeing-img {
+        width: 35%;
+    }
+
+    .small-card {
+        width: 45%;
+        margin-right: 20px;
+    }
+
+    .organic-text h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .nature-content h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .nature-content p {
+        width: 80%;
+    }
+
+    .nature-card h3 {
+        font-size: 18px;
+    }
+
+    .footer-menu a {
+        margin-left: 25px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 767.98px) {
+
+    .navbar {
+        text-align: center;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .menu {
+        float: none;
+        margin-top: 20px;
+    }
+
+    .menu a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .hero p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .hero-images img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .wellbeing-section {
+        padding: 50px 6%;
+        text-align: center;
+    }
+
+    .wellbeing-left {
+        float: none;
+        width: 100%;
+    }
+
+    .wellbeing-left h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .small-card {
+        float: none;
+        width: 100%;
+        margin: 0 0 35px;
+    }
+
+    .icon-box {
+        margin: 0 auto 20px;
+    }
+
+    .wellbeing-img {
+        float: none;
+        width: 70%;
+        margin: 30px auto 0;
+    }
+
+    .organic-img {
+        float: none;
+        width: 100%;
+    }
+
+    .organic-text {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .organic-text h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .organic-item {
+        text-align: left;
+    }
+
+    .nature-img {
+        height: 480px;
+    }
+
+    .nature-content {
+        top: 50px;
+    }
+
+    .nature-content h2 {
+        width: 90%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .nature-content p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .nature-cards {
+        width: 95%;
+        padding: 50px 20px;
+    }
+
+    .nature-card {
+        float: left;
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 60px 8%;
+    }
+
+    .footer-left {
+        float: none;
+    }
+
+    .footer-logo img {
+        margin: auto;
+    }
+
+    .footer-menu {
+        float: none;
+        margin-top: 40px;
+    }
+
+    .footer-menu a {
+        margin: 0 15px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 575.98px) {
+
+    .menu a {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .hero button {
+        width: 150px;
+        height: 42px;
+    }
+
+    .wellbeing-section {
+        margin-top: 70px;
+    }
+
+    .wellbeing-left h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .wellbeing-img {
+        width: 90%;
+    }
+
+    .organic-text h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .flower-icon {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .organic-item {
+        text-align: center;
+    }
+
+    .nature-img {
+        height: 520px;
+    }
+
+    .nature-icon {
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+    }
+
+    .nature-icon i {
+        font-size: 28px;
+    }
+
+    .nature-card {
+        float: none;
+        width: 100%;
+    }
+
+    .plant-icon {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .footer-menu a {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .social-icons i {
+        margin: 0 10px;
+    }
+}
