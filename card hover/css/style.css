@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: rgb(250, 244, 244);
+    font-family: Arial, sans-serif;
+}
+
+.team-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hover-card {
+    width: 430px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.white-box {
+    width: 330px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.image-box {
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.img-box {
+    width: 330px;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.img-box h2 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.info-box p {
+    margin: 8px 0 0;
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.hover-card:hover .image-box {
+    top: 0;
+    left: 20px;
+}
+
+.hover-card:hover .img-box {
+    opacity: 1;
+}
